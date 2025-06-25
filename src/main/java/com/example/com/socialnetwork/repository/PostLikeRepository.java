@@ -1,4 +1,4 @@
-package com.example.com.socialnetwork.Repository;
+package com.example.com.socialnetwork.repository;
 
 
 import com.example.com.socialnetwork.entity.Post;
