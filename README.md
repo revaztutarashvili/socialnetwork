@@ -166,3 +166,41 @@ spring.datasource.username=postgres
 spring.datasource.password=your_password
 
 spring.jpa.hibernate.ddl-auto=create
+```
+## 🏗️ Build & Run
+- bash
+- Copy
+- Edit
+# Build the project
+```
+mvn clean install
+```
+# Run the app
+mvn spring-boot:run
+📍 App runs on http://localhost:8083
+
+### ✅ Validation Rules
+- Unique fields: username, email, mobile
+
+- Post Ownership: Only owners can edit/delete their posts
+
+- Comment Ownership:
+
+  - Users can edit/delete their own comments
+
+  - Users can delete others' comments on their own posts
+
+  - Users cannot edit others' comments
+
+- Like Logic:
+
+  - One like per user per post
+
+  - A user can only unlike if they’ve liked previously
+
+### 📖 Swagger UI
+Explore and test the API with Swagger:
+
+🔗 http://localhost:8083/swagger-ui.html
+
+
