@@ -1,7 +1,4 @@
 package com.example.com.socialnetwork.controller;
-
-
-
 import com.example.com.socialnetwork.dto.requests.LikeRequest;
 import com.example.com.socialnetwork.service.LikeService;
 import lombok.RequiredArgsConstructor;

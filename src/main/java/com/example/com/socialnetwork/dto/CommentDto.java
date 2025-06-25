@@ -1,6 +1,7 @@
 package com.example.com.socialnetwork.dto;
 /**
- *
+ ** ეს record გამოიყენება კომენტარის შესახებ ინფორმაციის კლიენტისთვის დასაბრუნებლად.
+ *  `PostDto`-ს მსგავსად, აქაც ავტორის მთლიანი ობიექტის ნაცვლად ვაბრუნებთ მხოლოდ `authorUsername`-ს.*
  * */
 import java.time.LocalDateTime;
 

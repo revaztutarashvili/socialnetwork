@@ -1,6 +1,4 @@
 package com.example.com.socialnetwork.service;
-
-
 import com.example.com.socialnetwork.dto.CommentDto;
 import com.example.com.socialnetwork.dto.requests.CommentCreateRequest;
 import com.example.com.socialnetwork.entity.Comment;
