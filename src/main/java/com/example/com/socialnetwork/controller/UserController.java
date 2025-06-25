@@ -1,6 +1,4 @@
 package com.example.com.socialnetwork.controller;
-
-
 import com.example.com.socialnetwork.dto.UserDto;
 import com.example.com.socialnetwork.dto.requests.UserCreateRequest;
 import com.example.com.socialnetwork.service.UserService;
