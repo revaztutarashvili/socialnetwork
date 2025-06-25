@@ -42,7 +42,7 @@ public class LikeService {
         Post post = postRepository.findById(postId)
                 .orElseThrow(() -> new RuntimeException("Post not found with id: " + postId));
 
-        // თუ ლაიქი არ არსებობს, ვათროუებთ ექსეფშენს
+        // თუ ლაიქი არ არსებობს, ვისვრით ექსეფშენს
         if (likeRepository.findByUserAndPost(user, post).isEmpty()) {
             throw new RuntimeException("Cannot unlike post that was not liked.");
         }
